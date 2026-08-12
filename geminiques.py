@@ -6,7 +6,7 @@
 # print(total_bill)
 
 
-# palindrome or not problem
+#palindrome or not problem
 # def analyze_text(sentence):
 #     cleaned_text=sentence.replace(" ","").lower()
 #     is_palindrome=cleaned_text==cleaned_text[::-1]
