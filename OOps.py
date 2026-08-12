@@ -30,17 +30,4 @@
 
 # hello()
 
-import logging 
-def log_function_call(func):
-    def decorated(*args, **kwargs):
-        logging.info(f"Calling function {func.__name__} with arguments {args} and keyword arguments {kwargs}")
-        result = func(*args, **kwargs)
-        logging.info(f"Function {func.__name__} returned {result}")
-        return result
-    return decorated
 
-# @log_function_call
-def add(a, b):
-    return a + b
-
-log_function_call(add)(5, 3)
